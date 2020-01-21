@@ -187,9 +187,8 @@ void SPEC_print_data(){
   Serial.println("********************************************************************");
   Serial.print ("Sensor Serial No. is ");
   Serial.println (SensorSerialNo);
-  Serial.print ("H2S level is ");
-  Serial.print (H2S);
-  Serial.println (" ppb");
+  Serial.print ("H2S_ppb=");
+  Serial.println (H2S);
   Serial.print ("Temperature is ");
   Serial.print (Temperature, DEC);
   Serial.println (" deg C");
